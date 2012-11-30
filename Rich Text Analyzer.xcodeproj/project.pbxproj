@@ -13,6 +13,7 @@
 		D013754F161A7D9800ABCB8B /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = D013754D161A7D9800ABCB8B /* Credits.rtf */; };
 		D0137552161A7D9800ABCB8B /* PSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D0137551161A7D9800ABCB8B /* PSAppDelegate.m */; };
 		D0137555161A7D9800ABCB8B /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0137553161A7D9800ABCB8B /* MainMenu.xib */; };
+		D0137560161A7F5400ABCB8B /* PSPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = D013755F161A7F5400ABCB8B /* PSPanel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		D0137550161A7D9800ABCB8B /* PSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PSAppDelegate.h; sourceTree = "<group>"; };
 		D0137551161A7D9800ABCB8B /* PSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PSAppDelegate.m; sourceTree = "<group>"; };
 		D0137554161A7D9800ABCB8B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		D013755E161A7F5400ABCB8B /* PSPanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSPanel.h; sourceTree = "<group>"; };
+		D013755F161A7F5400ABCB8B /* PSPanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSPanel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +89,8 @@
 				D0137551161A7D9800ABCB8B /* PSAppDelegate.m */,
 				D0137553161A7D9800ABCB8B /* MainMenu.xib */,
 				D0137545161A7D9800ABCB8B /* Supporting Files */,
+				D013755E161A7F5400ABCB8B /* PSPanel.h */,
+				D013755F161A7F5400ABCB8B /* PSPanel.m */,
 			);
 			path = "Rich Text Analyzer";
 			sourceTree = "<group>";
@@ -169,6 +174,7 @@
 			files = (
 				D013754B161A7D9800ABCB8B /* main.m in Sources */,
 				D0137552161A7D9800ABCB8B /* PSAppDelegate.m in Sources */,
+				D0137560161A7F5400ABCB8B /* PSPanel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
